@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Light_Blue_50">#E1F5FE</color>
+    <color name="Light_Blue_100">#B3E5FC</color>
+    <color name="Light_Blue_200">#81D4FA</color>
+    <color name="Light_Blue_300">#4FC3F7</color>
+    <color name="Light_Blue_400">#29B6F6</color>
+    <color name="Light_Blue_500">#03A9F4</color>
+    <color name="Light_Blue_600">#039BE5</color>
+    <color name="Light_Blue_700">#0288D1</color>
+    <color name="Light_Blue_800">#0277BD</color>
+    <color name="Light_Blue_900">#01579B</color>
+    <color name="Light_Blue_A100">#80D8FF</color>
+    <color name="Light_Blue_A200">#40C4FF</color>
+    <color name="Light_Blue_A400">#00B0FF</color>
+    <color name="Light_Blue_A700">#0091EA</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_100">#FFCDD2</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="brawn_500">#795548</color>
+    <color name="brawn_800">#4E342E</color>
+    <color name="colorPrimaryGradient" tools:ignore="ReferenceType">@drawable/custom_background</color>
+
+</resources>

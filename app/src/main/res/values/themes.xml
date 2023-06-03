@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeatherTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Light_Blue_100</item>
+        <item name="colorPrimaryVariant">@color/Light_Blue_100</item>
+        <item name="colorOnPrimary">@color/Light_Blue_100</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brawn_500</item>
+        <item name="colorSecondaryVariant">@color/brawn_800</item>
+        <item name="colorOnSecondary">@color/Light_Blue_100</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor" >@color/Light_Blue_100</item>
+        <item name="background">@color/colorPrimaryGradient</item>
+
+        <!-- Customize your theme here. -->
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.App.ExtendedFloatingActionButton</item>
+        <item name="android:textViewStyle">@style/Widget.App.TextView</item>
+        <item name="floatingActionButtonStyle">@style/Widget.App.ExtendedFloatingActionButton</item>
+    </style>
+    <style name="Widget.App.ExtendedFloatingActionButton" parent="Widget.Material3.ExtendedFloatingActionButton.Icon.Primary">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.ExtendedFloatingActionButton</item>
+    </style>
+
+    <style name="Widget.App.FloatingActionButton" parent="Widget.Material3.ExtendedFloatingActionButton.Primary" >
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.ExtendedFloatingActionButton</item>
+    </style>
+    <style name="ThemeOverlay.App.ExtendedFloatingActionButton" parent="">
+        <item name="colorContainer">@color/purple_500</item>
+        <item name="android:textColor">@color/brawn_500</item>
+        <item name="colorOnContainer">@color/purple_700</item>
+        <item name="colorSecondary">@color/Light_Blue_100</item>
+        <item name="colorPrimary">@color/white</item>
+
+    </style>
+    com.google.android.material.textview.MaterialTextView
+
+    <style name="Widget.Theme.AppCompat" parent="Theme.AppCompat" >
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextView</item>
+
+    </style>
+    <style name="Widget.App.TextView" parent="Widget.MaterialComponents.TextView" >
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextView</item>
+    </style>
+    <style name="ThemeOverlay.App.TextView" parent="">
+        <item name="android:textColor">@color/brawn_500</item>
+        <item name="colorOnContainer">@color/purple_700</item>
+        <item name="colorSecondary">@color/Light_Blue_500</item>
+        <item name="colorPrimary">@color/white</item>
+
+    </style>
+</resources>
